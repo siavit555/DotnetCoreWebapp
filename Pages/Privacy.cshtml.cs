@@ -14,6 +14,7 @@ namespace DotnetCoreWebapp.Pages
 
         public void OnGet()
         {
+            throw new Exception("This is a test exception to demonstrate error handling in ASP.NET Core.");
         }
     }
 
